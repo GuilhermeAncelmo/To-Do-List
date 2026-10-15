@@ -1,60 +1,29 @@
-📋 Task Dashboard (React)
+# To-Do List — quadro Kanban
 
-Aplicação web de gerenciamento de tarefas (To-Do List) desenvolvida com React, JavaScript, HTML e CSS, com foco em organização de estado, persistência de dados e experiência do usuário.
+Aplicação de tarefas com interface React e API Flask. Permite criar, mover e excluir tarefas; o backend salva os dados em um arquivo JSON local.
 
+![Prévia do quadro de tarefas](https://github.com/user-attachments/assets/a909b499-9a21-4fe0-8785-819119062c9d)
 
-📸 Preview
-<img width="896" height="398" alt="image" src="https://github.com/user-attachments/assets/a909b499-9a21-4fe0-8785-819119062c9d" />
+## Stack atual
 
-🚀 Funcionalidades
-✅ Adição de tarefas em tempo real
-✅ Marcação de tarefas como concluídas
-✅ Remoção de tarefas
-✅ Persistência com LocalStorage
-✅ Interface responsiva e intuitiva
+- Frontend: React, JavaScript e Vite
+- Backend: Python, Flask e Flask-CORS
+- Persistência: arquivo JSON local
 
-🧠 Conceitos aplicados
-Gerenciamento de estado com useState
-Ciclo de vida com useEffect
-Manipulação de eventos
-Armazenamento local (LocalStorage)
-Renderização dinâmica com React
+## Funcionalidades
 
-🛠️ Tecnologias
-Front-end
-React
-JavaScript (ES6+)
-HTML5
-CSS3
-Back-end (em evolução 🚀)
-Node.js
-APIs REST (conceitos)
+- Criação de tarefas
+- Organização por status em um quadro Kanban
+- Atualização e exclusão de tarefas
+- Comunicação entre frontend e API HTTP
 
-📂 Estrutura do projeto
-task-dashboard/
-│
-├── index.html
-├── style.css
-└── script.js
+## Executar localmente
 
-▶️ Como rodar o projeto
-git clone https://github.com/seu-usuario/task-dashboard-react.git
+1. Clone: `git clone https://github.com/GuilhermeAncelmo/To-Do-List.git`.
+2. Em `backend`, instale `flask` e `flask-cors`; depois execute `python app.py`. A API inicia em `http://localhost:5000`.
+3. Em `front-end`, execute `npm install` e `npm run dev`.
+4. Abra a URL informada pelo Vite. O frontend usa `http://localhost:5000/tasks`.
 
-Depois abra:
+## Estado do projeto
 
-index.html
-📈 Melhorias futuras
- Integração com API (Node.js)
- Banco de dados (MongoDB ou MySQL)
- Autenticação de usuários
- Deploy fullstack
- Dark mode
- Animações
-💼 Sobre mim
-
-Guilherme
-Desenvolvedor Fullstack em formação, com foco em construção de aplicações web modernas, buscando evoluir tanto no front-end quanto no back-end.
-
-📄 Licença
-
-Este projeto está sob a licença MIT.
+Projeto de estudo. O arquivo JSON oferece persistência simples para desenvolvimento local. Próximos passos: registrar as dependências Python em arquivo próprio, adicionar testes e configurar a URL da API por ambiente.
